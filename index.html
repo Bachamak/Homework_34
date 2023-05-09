@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+    <title>homework_29</title>
+</head>
+<body>
+    <div class="categories">
+        <h2>Категорії:</h2>
+        <ul id="listCategories">
+          <li><a href="#" onclick="showProducts('Топ')">1 - Топ</a></li>
+          <li><a href="#" onclick="showProducts('Низ')">2 - Низ</a></li>
+          <li><a href="#" onclick="showProducts('Аксесуари')">3 - Аксесуари</a></li>
+        </ul>
+      </div>
+      <div class="products">
+        <h2>Одяг:</h2>
+        <ul id="productList">
+        </ul>
+      </div>
+      <div class="info">
+        <h2>Опис товару:</h2>
+        <p id="product-info"></p>
+        <button id="BtnBuy" onclick="buyProduct()">Бредбати</button>
+      </div>
+        <div class="cart">
+            <h2>Корзина:</h2>
+            <ul id="cartList">
+            </ul>
+            <button id="BtnClear" onclick="clearCart()">Вичистити кошик</button>
+        </div>
+</body>
+</html>
